@@ -1,0 +1,39 @@
+button {
+    margin-top: 0%;
+    width: 6em;
+    height:1.7em;
+    font-size:120%;
+    transition-duration: 0.5s;
+    background-color: rgb(8, 202, 160);
+    border-radius: 2em;
+    border: 2px solid rgb(8, 202, 160);
+    color: white;
+    font-family: Impact, "Fantasy";
+}
+
+button:hover {
+    background-color:rgb(231, 239, 240);
+    color: rgb(70, 66, 66);
+    border: 2px solid rgb(70, 66, 66);
+    border-radius: 5px;
+}
+
+#decodificar {
+    margin-left: 1%;
+    margin-right: 13%;
+}
+
+#copiar {
+    margin-right: 1%;
+    margin-left: 13%;
+}
+
+.invisivel {
+    opacity: 0.6;
+    cursor:not-allowed;
+}
+
+div.botoes {
+    display: flex;
+    justify-content:center;
+}

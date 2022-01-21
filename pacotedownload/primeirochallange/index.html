@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/areatexto.css">
+    <link rel="stylesheet" type="text/css" href="css/rodape.css">
+    <link rel="stylesheet" type="text/css" href="css/botoes.css">
+    <link rel="stylesheet" type="text/css" href="css/cabecalho.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <h1 id = "titulo">Decodificador</h1>
+        <h2 id = "subtitulo">Método Alura</h2>
+    </header>
+
+    <div class="textarea">
+        <textarea type="text" id="mensagem-do-usuario" cols="30" rows="10" maxlength="200" placeholder="Digite a mensagem, apenas letra minúscula e sem acento, aqui." value=""></textarea>
+        <div class="linha"></div>
+        <textarea id="mensagem-traduzido" cols="30" rows="10" maxlength="200" class="pensando" disabled></textarea>
+    </div>
+
+    <br>
+
+    <div class="botoes">
+        <button id= "codificar">CODIFICAR</button>
+        <button id = "decodificar">DECODIFICAR</button>
+        <button id = "copiar">COPIAR</button>
+        <button id= "limpar" class="invisivel">LIMPAR</button>
+    </div>
+
+    <footer>
+        <p>Criado por: Caique Brenneck.</p>
+        <p>Linkedin: 
+            <a id="linkedin" href="https://www.linkedin.com/in/caique-aparecido-rodrigues-de-sousa-80982b199">
+            CLIQUE AQUI</a>.
+        </p>
+    </footer>
+
+    <script src="js/fundomensagemtraduzido.js"></script>
+    <script src="js/botaocodificar.js"></script>
+    <script src="js/botaodecodificar.js"></script>
+    <script src="js/botaocopiar.js"></script>
+    <script src="js/botaolimpar.js"></script>
+    <script src="js/texto.js"></script>
+    
+</body>
+</html>

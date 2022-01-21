@@ -1,0 +1,15 @@
+footer {
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(70, 66, 66);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+#linkedin {
+    color:rgb(11, 139, 112);
+    font-weight: bold;
+}

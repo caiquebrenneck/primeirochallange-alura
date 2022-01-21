@@ -1,0 +1,43 @@
+#mensagem-do-usuario {
+    border: 2px solid rgb(70, 66, 66);
+    border-radius: 5px;
+    background-color: rgb(231, 239, 240);
+    color:rgb(70, 66, 66);
+    font-size: 20px;
+    resize: none;
+    margin-right: 8%;
+}
+
+#mensagem-traduzido {
+    border: 2px solid rgb(70, 66, 66);
+    border-radius: 5px;
+    background-color: rgb(231, 239, 240);
+    color:rgb(70, 66, 66);
+    font-size: 20px;
+    resize: none;
+    margin-left: 8%;
+}
+
+.pensando {
+    background-image:url('img/pensando200.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.error {
+    background-image: url('img/error200.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+div.textarea {
+    display: flex;
+    justify-content:center;
+    margin-top: 0%;
+}
+
+div.linha {
+    height: 250px;
+    border-right: 2px solid rgb(70, 66, 66);
+    align-items: center;
+}
