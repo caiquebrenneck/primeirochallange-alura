@@ -12,4 +12,9 @@ function removerFundoError() {
 function adicionarFundoError() {
     var fundoError = document.querySelector("#mensagem-traduzido");
     fundoError.classList.add("error");
+    var invalido = document.querySelector("#mensagem-do-usuario");
+    invalido.setAttribute("disabled", "disabled");
+    invalido.value = "ATENÇÃO... às regras, apenas letra minúscula e sem acento!"
+    invalido.classList.remove("valido");
+    invalido.classList.add("invalido");
 }

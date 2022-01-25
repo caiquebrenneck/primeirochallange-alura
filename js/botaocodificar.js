@@ -15,12 +15,6 @@ botaoCodificar.onclick = function () {
         document.getElementById("mensagem-traduzido").value = letras.join('');
     } else {
         document.getElementById("mensagem-traduzido").value = "";
-        var invalido = document.querySelector("#mensagem-do-usuario");
-        invalido.value = "ATENÇÃO... as regras, proibido letra maiúscula ou com acento!"
-        invalido.classList.remove("valido");
-        invalido.classList.add("invalido");
         adicionarFundoError();
-        document.querySelector("#mensagem-traduzido").classList.remove("valido");
-        document.querySelector("#mensagem-traduzido").classList.add("invalido");
     }
 };
