@@ -1,5 +1,8 @@
 #mensagem-do-usuario {
+    border: 2px solid rgb(70, 66, 66);
     border-radius: 5px;
+    background-color: rgb(231, 239, 240);
+    color:rgb(70, 66, 66);
     font-size: 20px;
     resize: none;
     margin-right: 8%;
@@ -8,20 +11,11 @@
 #mensagem-traduzido {
     border: 2px solid rgb(70, 66, 66);
     border-radius: 5px;
+    background-color: rgb(231, 239, 240);
+    color:rgb(70, 66, 66);
     font-size: 20px;
     resize: none;
     margin-left: 8%;
-}
-
-.valido {
-    background-color: rgb(231, 239, 240);
-    border: 2px solid rgb(70, 66, 66);
-    color:rgb(70, 66, 66);
-}
-
-.invalido {
-    border: 2px solid rosybrown;
-    color:salmon;
 }
 
 .pensando {
