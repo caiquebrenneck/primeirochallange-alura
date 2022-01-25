@@ -4,7 +4,7 @@ botaoDecodificar.onclick = function () {
 
     var letras = pegarTexto();
     var testando = verificandoTexto(letras);
-
+   
     if (testando) {
         var escritoCorreto = true;
         for(var i = 0; i < letras.length; i++) {
@@ -47,8 +47,6 @@ botaoDecodificar.onclick = function () {
                                     escritoCorreto = false;
                                     break;
                                 }
-                            } else {
-                                console.log("não tem vogal");
                             }
                         }
                     }
@@ -61,5 +59,8 @@ botaoDecodificar.onclick = function () {
             document.getElementById("mensagem-traduzido").value = "";
             adicionarFundoError();
         }
+    } else {
+        document.getElementById("mensagem-traduzido").value = "";
+        adicionarFundoError();
     }
 }
