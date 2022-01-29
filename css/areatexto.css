@@ -1,3 +1,21 @@
+div.linha {
+    height: 250px;
+    border-right: 2px solid rgb(70, 66, 66);
+    align-items: center;
+}
+
+div.textarea {
+    display: flex;
+    justify-content:center;
+    margin-top: 0%;
+}
+
+.error {
+    background-image: url('img/error200.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
 #mensagem-do-usuario {
     border-radius: 5px;
     background-color: rgb(231, 239, 240);
@@ -31,20 +49,3 @@
     background-position: bottom;
 }
 
-.error {
-    background-image: url('img/error200.png');
-    background-repeat: no-repeat;
-    background-position: top;
-}
-
-div.textarea {
-    display: flex;
-    justify-content:center;
-    margin-top: 0%;
-}
-
-div.linha {
-    height: 250px;
-    border-right: 2px solid rgb(70, 66, 66);
-    align-items: center;
-}
